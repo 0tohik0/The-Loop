@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section_header {
+    min-width: 1920px;
+    padding-top: 56px;
+    background: #F9F6F1;
+}
+
+.container {
+    max-width: 982px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav, .logo_tip, .services{
+    display: flex;              
+    justify-content: space-between;
+    list-style-type: none;
+}
+
